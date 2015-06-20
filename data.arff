@@ -1,0 +1,19 @@
+@relation rewardRelation
+@attribute shape{diamond, square, circle}
+@attribute colour{pink, blue, yellow}
+@attribute size{small, large}
+@attribute shadow{yes, no}
+@attribute reward{zero, minus_5, minus_1, plus_2}
+@data
+diamond,pink,large,yes,minus_5
+square,blue,small,yes,minus_1
+square,blue,small,no,minus_1
+square,blue,large,yes,plus_2
+square,yellow,large,yes,plus_2
+circle,pink,small,no,zero
+circle,blue,small,no,zero
+circle,blue,large,yes,zero
+circle,blue,large,no,zero
+circle,yellow,small,yes,zero
+circle,yellow,small,no,zero
+circle,yellow,large,yes,zero
